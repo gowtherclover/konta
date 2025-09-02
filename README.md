@@ -21,7 +21,7 @@ Konta es un mini‑CRM que permite organizar y gestionar contactos de manera rá
 }
 ```
 
-##⚙️ Instalación y uso
+## ⚙️ Instalación y uso
 
 1. Clonar el repositorio
 
@@ -42,7 +42,7 @@ Konta es un mini‑CRM que permite organizar y gestionar contactos de manera rá
 -node backend/server.js
 
 
-##📂 Estructura del proyecto
+## 📂 Estructura del proyecto
 konta/
 ├── frontend/      # React + Vite + Tailwind
 ├── backend/       # Node.js + SQL Server
@@ -51,7 +51,7 @@ konta/
 ├── vite.config.js
 └── README.md
 
-###🤝 Contribución
+### 🤝 Contribución
 
 Para contribuir:
 
@@ -68,7 +68,7 @@ Para contribuir:
 
 - Subir la rama y abrir un Pull Request en GitHub.
 
-##👥 Autores
+## 👥 Autores
 
 
 Enzo Aguilar
