@@ -1,12 +1,75 @@
-# React + Vite
+# Konta
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Konta es un mini‑CRM que permite organizar y gestionar contactos de manera rápida, accesible y eficiente, con una interfaz intuitiva y herramientas potentes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- **Frontend:** JavaScript, React, Vite, TailwindCSS  
+- **Backend:** Node.js  
+- **Base de datos:** SQL Server Developer Edition (SSMS)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Dependencias principales:**
+```json
+"dependencies": {
+  "@tailwindcss/vite": "^4.1.12",
+  "react": "^19.1.1",
+  "react-dom": "^19.1.1",
+  "react-router-dom": "^7.8.2",
+  "tailwindcss": "^4.1.12"
+}
+⚙️ Instalación y uso
+
+Clonar el repositorio
+
+git clone https://github.com/gowtherclover/konta.git
+cd konta
+
+
+Instalar dependencias
+
+npm install
+
+
+Levantar el frontend
+
+npm run dev
+
+
+Levantar el backend (Node.js con conexión a SQL Server)
+
+node backend/server.js
+
+
+📂 Estructura del proyecto
+konta/
+├── frontend/      # React + Vite + Tailwind
+├── backend/       # Node.js + SQL Server
+├── node_modules/
+├── package.json
+├── vite.config.js
+└── README.md
+
+🤝 Contribución
+
+Para contribuir:
+
+Crear una rama nueva:
+
+git checkout -b feature/nombre-de-la-tarea
+
+
+Hacer cambios y commit:
+
+git add .
+git commit -m "Descripción del cambio"
+
+
+Subir la rama y abrir un Pull Request en GitHub.
+
+👥 Autores
+
+Enzo Aguilar
+
+Federico Lanzo
