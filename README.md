@@ -22,30 +22,28 @@ Konta es un mini‑CRM que permite organizar y gestionar contactos de manera rá
 
 ---
 
-⚙️ Instalación y uso
+##⚙️ Instalación y uso
 
-Clonar el repositorio
+1. Clonar el repositorio
 
-git clone https://github.com/gowtherclover/konta.git
-cd konta
+2. git clone https://github.com/gowtherclover/konta.git
+3. cd konta
+4. Instalar dependencias
 
-
-Instalar dependencias
-
-npm install
+5. npm install
 
 
-Levantar el frontend
+6. Levantar el frontend
 
-npm run dev
-
-
-Levantar el backend (Node.js con conexión a SQL Server)
-
-node backend/server.js
+7. npm run dev
 
 
-📂 Estructura del proyecto
+-Levantar el backend (Node.js con conexión a SQL Server)
+
+-node backend/server.js
+
+
+##📂 Estructura del proyecto
 konta/
 ├── frontend/      # React + Vite + Tailwind
 ├── backend/       # Node.js + SQL Server
@@ -54,24 +52,25 @@ konta/
 ├── vite.config.js
 └── README.md
 
-🤝 Contribución
+###🤝 Contribución
 
 Para contribuir:
 
-Crear una rama nueva:
+- Crear una rama nueva:
 
-git checkout -b feature/nombre-de-la-tarea
-
-
-Hacer cambios y commit:
-
-git add .
-git commit -m "Descripción del cambio"
+- git checkout -b feature/nombre-de-la-tarea
 
 
-Subir la rama y abrir un Pull Request en GitHub.
+- Hacer cambios y commit:
 
-👥 Autores
+- git add .
+- git commit -m "Descripción del cambio"
+
+
+- Subir la rama y abrir un Pull Request en GitHub.
+
+##👥 Autores
+
 
 Enzo Aguilar
 
