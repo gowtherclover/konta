@@ -19,8 +19,7 @@ Konta es un mini‑CRM que permite organizar y gestionar contactos de manera rá
   "react-router-dom": "^7.8.2",
   "tailwindcss": "^4.1.12"
 }
----
----
+```
 
 ##⚙️ Instalación y uso
 
