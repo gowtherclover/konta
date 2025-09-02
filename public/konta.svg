@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" >
+  <defs>
+    <!-- Gradiente azul -->
+    <linearGradient id="grad3D" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd"/> <!-- azul 300 -->
+      <stop offset="40%" stop-color="#3b82f6"/> <!-- azul 500 -->
+      <stop offset="70%" stop-color="#2563eb"/> <!-- azul 600 -->
+      <stop offset="100%" stop-color="#1e3a8a"/> <!-- azul 900 -->
+    </linearGradient>
+
+    <!-- Efecto de sombra para simular 3D -->
+    <filter id="shadow3D" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="6" dy="6" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="4" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+
+  <!-- Letra K en 3D rotada -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-size="200" font-family="Arial Black, sans-serif"
+        fill="url(#grad3D)" filter="url(#shadow3D)"
+        transform="rotate(0, 100, 100)">
+    K
+  </text>
+</svg>
